@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/banner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/s0"
+                android:textAlignment="center"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/bandname"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:ems="10"
+                android:hint="@string/s1"
+                android:inputType="textNoSuggestions"
+                android:textColorHint="#78909C"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/s3"
+                android:layout_marginStart="10dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:inputType="textNoSuggestions"
+                android:ems="10"
+                android:hint="Date"
+                android:textColorHint="#78909C"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/hour"
+                android:layout_width="59dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:inputType="number"
+                android:ems="10"
+                android:hint="@string/s10"
+                android:textColorHint="#78909C"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/min"
+                android:layout_width="78dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="@string/s11"
+                android:inputType="number"
+                android:textColorHint="#78909C"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/stadium_city"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:hint="@string/s5"
+                    android:textColorHint="#78909C"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/stadium_area"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:hint="@string/s6"
+                    android:inputType="textNoSuggestions"
+                    android:textColorHint="#78909C"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.921"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/concertcity" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <EditText
+                android:id="@+id/ticket_price"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="12dp"
+                android:hint="@string/s7"
+                android:inputType="number"
+                android:textColorHint="#78909C"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/insertshow"
+                android:layout_width="301dp"
+                android:layout_height="82dp"
+                android:layout_marginStart="20dp"
+                android:backgroundTint="#0ED6B9"
+                android:text="@string/s9"
+                android:textColor="#BF360C"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
