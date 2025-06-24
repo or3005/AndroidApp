@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tickets For Shows</string>
+    <string name="s0">Tickets For Shows</string>
+    <string name="s1">Email Address</string>
+    <string name="s2">Password</string>
+    <string name="s3">Login</string>
+    <string name="s4">Register</string>
+    <string name="s5">FullName</string>
+    <string name="s6">Age</string>
+    <string name="s7">Email</string>
+    <string name="s8">Register User</string>
+    <string name="s9">CANCEL</string>
+    <string name="s10">OK</string>
+    <string name="s11">Please choose the number of ticket</string>
+    <string name="s12">Edit Profile</string>
+    <string name="s13">Edit</string>
+    <string name="s14">Back To Login</string>
+    <string name="s15">Available Shows</string>
+    <string name="s16">My Reservation</string>
+    <string name="s17">Please select the area you would like to see shows</string>
+
+</resources>

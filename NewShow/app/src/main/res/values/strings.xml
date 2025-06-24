@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">New Show</string>
+    <string name="s0">Show Details</string>
+    <string name="s1">Name</string>
+    <string name="s3">Date&amp;Time</string>
+    <string name="s5">City</string>
+    <string name="s6">Area</string>
+    <string name="s7">Ticket Price</string>
+    <string name="s9">Insert Show</string>
+    <string name="s10">Hour</string>
+    <string name="s11">Min</string>
+
+
+</resources>
